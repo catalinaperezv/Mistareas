@@ -1,0 +1,53 @@
+.container {
+    width: 1000px;
+    background-color: #eaeaea79;
+    margin: 0 auto;
+}
+
+.top-nav {
+    height: 150px;
+    background-color: #ffcc00;
+    margin: 20px;
+    text-align: center;
+}
+
+.side-nav {
+    height: 400px;
+    width: 250px;
+    background-color: #66ccff;
+    position: fixed;
+    display: inline-block;
+    margin-left: 720px;
+    
+
+    
+    
+}
+
+.main {
+    height: 400px;
+    width: 700px;
+    background-color:deeppink;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color:mediumblue;
+    margin-left: 15px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin: 10px;
+}
+
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: #33cc33;
+    margin: 10px;
+    text-align: center;
+
+}
