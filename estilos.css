@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .navbar {
+    background-color: pink;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: right;
+    padding: 15px 30px;
+  }
+  
+  .navuno {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .navdos {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+  }
+  
+  
+  .salir {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+
+  }
+  
+  .contenedor {
+    display: flex;
+    max-width: 1700px;
+    margin: 30px auto;
+    gap: 30px;
+    padding: 0 20px;
+  }
+  .columnaizquierda {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+.parte-abajo{
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-radius: 50px;
+}
+
+.parte-arriba{
+    height: 100px;
+    background-color: pink;
+    border-bottom: 50%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px ;
+
+}
+
+.foto-perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 90%;
+    border: 2px solid white;
+    position: relative;
+    top: -50px;
+    left: 40px;
+}
+
+.caja{
+    padding: 50px;
+}
+
+.nombre {
+    font-size: 10px;
+    margin-top: -50px;
+    margin-bottom: 12px;
+    color: #110911;
+}
+
+.direccion {
+    font-size: 16px;
+    color: rgb(232, 7, 195);
+    margin-bottom: 12px;}
+
+.antecedente {
+    font-size: 17px;
+    color: #ffbced;
+    margin-bottom: 18px;}
+
+.informacion {
+    font-size: 15px;
+    color: #b600c6;
+    margin-bottom: 25px;}
+
+.boton {
+    padding: 12px 20px;
+    background-color: #9bdcff;
+    border: none;
+    border-radius: 8px;
+    font-size: 10px;}
+
+  .columna {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+
+  
+  .creditos {
+    margin-bottom: 15px;
+  }
+  
+  .holauno {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  
+  .holauno img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .si{
+    background-color: rgb(114, 252, 49);
+    border: 2px solid #ff4d94;
+    color: #ff4d94;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+.no{background-color: rgb(232, 49, 49);
+  border: 2px solid #ff4d94;
+  color: #ff4d94;
+  border-radius: 50%;
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;}
+  
+  
+  .lista li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .fotitos img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
