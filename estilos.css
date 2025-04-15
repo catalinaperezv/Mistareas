@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: #6de1f3;
+  }
+  
+
+  .navbar {
+    background-color: #ffc1c1;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+  }
+  .contenedor {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .yo {
+    border: 2px solid black;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+  
+  }
+  
+  .avatar {
+    width: 100%;
+  
+    border-radius: 50%;
+  }
+  
+  .feed {
+    flex: 1;
+  }
+  
+  .posts {
+    background-color: #f6d7d7;
+    border: 1px solid #ff92d3;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+
+  .likee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .megustaboton {
+    background-color: rgb(251, 65, 229);
+    border: none;
+    padding: 5px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
